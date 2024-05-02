@@ -35,6 +35,11 @@ function App() {
 
   return (
     <div className="container">
+      <div className="header">
+        <div className="header-content">
+          <img src="logo.png" alt="logo" className="logo" />
+        </div>
+      </div>
       {/* ロード中かどうかで表示する内容を変える：ロード中はロードマーク、ロード完了後は通常表示 */}
       {isLoading ? (
         <div>Now Loading...</div>
